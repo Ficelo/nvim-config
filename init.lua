@@ -14,6 +14,8 @@ vim.opt.signcolumn = "yes"
 vim.opt.cursorline = true
 vim.opt.scrolloff = 8
 
+vim.o.exrc = true
+vim.o.secure = true
 
 require("config.lazy")
 
